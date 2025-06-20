@@ -62,7 +62,7 @@ services:
     image: dynatrace/oneagent:latest
     environment:
       - ONEAGENT_INSTALLER_SCRIPT_URL=https://gmt78264.live.dynatrace.com/api/v1/deployment/installer/agent/unix/default/latest?arch=x86
-      - ONEAGENT_INSTALLER_DOWNLOAD_TOKEN=dt0c01.4IWHHUP7FHDKSW7N7LZJ36UW.7ZJ7U4U6HBVNUDIH3JIYY5KEVZOAPJPRIGWTKFQ47OJVPBHMDM7HSTF45PVMM4YS
+      - ONEAGENT_INSTALLER_DOWNLOAD_TOKEN=
     privileged: true
     pid: "host"
     network_mode: "host"
